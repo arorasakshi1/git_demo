@@ -9,7 +9,7 @@ public class my_client {
 		// TODO Auto-generated method stub
 		Socket s=new Socket("localhost",1234);
 		DataOutputStream dout=new DataOutputStream(s.getOutputStream());
-		dout.writeUTF("hello i am client and my name is sakshi");
+		dout.writeUTF("hello i am client and my name is abc");
 		dout.flush();
 		dout.close();
 		s.close();

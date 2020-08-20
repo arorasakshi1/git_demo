@@ -13,7 +13,7 @@ public class my_server {
 			DataInputStream din=new DataInputStream(s.getInputStream());
 			String str=(String)din.readUTF();
 			System.out.println("client says:"+str);
-			ss.close();
+			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
